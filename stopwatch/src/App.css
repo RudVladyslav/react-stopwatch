@@ -1,0 +1,70 @@
+.App{
+ font-style: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+}
+
+.app-inner-wrapper{
+  width: 350px;
+  height: 350px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  border: 1px solid black;
+}
+
+.timer{
+  font-size: xx-large;
+  padding: 15px;
+}
+
+.button-wrapper button{
+  margin: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius:10px ;
+  transition: 0.1s;
+}
+
+.start{
+  background-color: green;
+  border: 1px solid darkgreen;
+}
+.start:hover{
+  background-color: darkgreen;
+  transition: 0.3s;
+}
+.stop{
+  background-color: red;
+  border: 1px solid darkgreen;
+}
+.stop:hover{
+  background-color: darkred;
+  transition: 0.3s;
+}
+.reset{
+  background-color: orange;
+  border: 1px solid darkorange;
+}
+.reset:hover{
+  background-color: darkorange;
+  transition: 0.3s;
+}
+.wait{
+  background-color: gold;
+  border: 1px solid darkgreen;
+}
+.wait:hover{
+  background-color: darkgoldenrod;
+  transition: 0.3s;
+}
